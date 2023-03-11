@@ -11,13 +11,13 @@ logging.basicConfig(
 
 class Config(object):
 
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "1327268321:AAFUwEDdbioryZum46inGwbsNEfe6NIjW64")
 
     API_ID = int(os.environ.get("API_ID", 23560088))
 
     API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "5410723702").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "671292689").split())
 
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
 
@@ -53,7 +53,7 @@ class Config(object):
 
     LOGGER = logging
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5410723702"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "671292689"))
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
