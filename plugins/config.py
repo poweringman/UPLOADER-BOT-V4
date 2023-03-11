@@ -43,13 +43,13 @@ class Config(object):
 
     PROCESS_MAX_TIMEOUT = 0
 
-    DEF_WATER_MARK_FILE = "Use this bot @UploadLinkToFileBot"
+    DEF_WATER_MARK_FILE = "Use this bot @upload_fast_bot"
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
-    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "upload_fast_bot")
 
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001642382009))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1001739515008))
 
     LOGGER = logging
 
@@ -57,7 +57,7 @@ class Config(object):
 
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "UploadLinkToFileBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "upload_fast_bot")
 
     PRO_USERS = list(set(int(x) for x in os.environ.get("PRO_USERS", "0").split()))
 
