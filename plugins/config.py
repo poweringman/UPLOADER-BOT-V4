@@ -13,9 +13,9 @@ class Config(object):
 
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "1327268321:AAFUwEDdbioryZum46inGwbsNEfe6NIjW64")
 
-    API_ID = int(os.environ.get("API_ID", 23560088))
+    API_ID = int(os.environ.get("API_ID", 14157511))
 
-    API_HASH = os.environ.get("API_HASH", "999c01704d5c417749a98f4b8785fe88")
+    API_HASH = os.environ.get("API_HASH", "0bf7c2521f57a94f1d699ced3c3cbf63")
 
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "671292689").split())
 
@@ -23,7 +23,7 @@ class Config(object):
 
     DOWNLOAD_LOCATION = "./DOWNLOADS"
 
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "-1001739515008")
 
     MAX_FILE_SIZE = 4194304000
 
@@ -55,7 +55,7 @@ class Config(object):
 
     OWNER_ID = int(os.environ.get("OWNER_ID", "671292689"))
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001739515008")
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "upload_fast_bot")
 
